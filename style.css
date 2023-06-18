@@ -1,3 +1,32 @@
-body {
-    
+header {
+    padding: 15px;
+    background: #13293d;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: left;
+}
+
+header nav {
+    display: relative;
+    float: right;
+    margin-top: -79px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 120px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
 }
