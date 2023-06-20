@@ -6,13 +6,15 @@ header {
 header h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
-    text-align: left;
+    text-align:justify;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 6%;
 }
 
 header nav {
-    display: relative;
-    float: right;
-    margin-top: -79px;
+    margin-top: -9.5%;
+    margin-left: 16%;
 }
 
 header nav ul {
@@ -21,7 +23,7 @@ header nav ul {
 
 header nav ul li{
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 13%;
     font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -29,4 +31,20 @@ header nav ul li{
 header nav a {
     color: #ffffff;
     text-decoration: none;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section-1 {
+    margin-bottom: 0%;
+    margin-left: -2.2%;
+    margin-right: -31.1%;
+    padding: 1% 5% 1% 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
