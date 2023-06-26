@@ -95,24 +95,18 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #c5c5c5;
     color: #13293d;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .container h2 {
     font-size: 200%;
 }
 
-.figure-2 {
+.other-projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3% 0% 3% 0%;
 }
 
-.figure-2 img{
-    width: 30%
+.other-projects img{
+    width: 80%
 }
 .section-3 {
     text-align: center;
@@ -126,8 +120,10 @@ main {
     font-size: 200%;
 }
 
-.socials{
-width:3%;
+.socials img{
+    width:10%;
+    padding: 3%;
+    border-radius: 30%;
 }
 
 .section-4 {
