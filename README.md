@@ -14,7 +14,7 @@ This entire project was made in Visual Studio. I started by creating a repositor
 
 The final product looks like this:
 
-<img src="Completed-Porfolio-Screenshot.png">
+<img src="./Completed-Portfolio-Screenshot.png">
 
 If you click on any of the 4 items in the navigation bar, the website will automatically direct you to that portion of the web app. You can also click on all the images and icons in order to be taken to their corresponding links. The website has also been optimized in order to resize certain elements based of the size of the viewport.
 
