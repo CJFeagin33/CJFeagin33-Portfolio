@@ -103,7 +103,7 @@ main {
 }
 
 .figure-1 img{
-    width: 81%;
+    width: 83%;
 }
 
 .container {
@@ -159,6 +159,10 @@ main {
     transform: scale(1.03);
 }
 
+.socials a {
+    text-decoration:none;
+}
+
 .section-4 {
     text-align: center;
     padding-top: 1.5%;
@@ -174,9 +178,40 @@ main {
 .section-4 p {
     font-size: 120%;
 }
+
+.section-4 a {
+    font-size: 120%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: underline #ffffff 5%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 footer {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color:#0072bb;
     color: #ffffff;
+}
+
+@media screen and (max-width: 990px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    .section-4 img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .mobile-viewing {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .other-projects {
+        flex-direction: column;
+    }
 }
