@@ -179,6 +179,10 @@ main {
     font-size: 120%;
 }
 
+.section-4 img:hover {
+    transform: scale(1.03);
+}
+
 .section-4 a {
     font-size: 120%;
     padding-left: 3%;
